@@ -4,7 +4,7 @@ use std::io::{BufRead, BufReader};
 const DEBUG: bool = false;
 
 fn main() {
-    let filename = "input.txt";
+    let filename = "src/input.txt";
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
     let mut total = 0;
